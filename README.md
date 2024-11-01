@@ -39,10 +39,10 @@ If you want to change what the app does, simply edit the string in `ContentView`
 **Why would I use this?**    
 Do not use this.
 
-**Is it safe to run this on my computer?**
+**Is it safe to run this on my computer?**    
 Probably not. I had to strip away a lot of the sandboxing and hardened runtime to get this to work. Use at your own risk.
 
-**Does this work on iOS?**
+**Does this work on iOS?**    
 Not at this time. I think you'd have to have a compiler that ran on a server somewhere to get it to work. If at all.
 
 **Can I use a different language model?**    
