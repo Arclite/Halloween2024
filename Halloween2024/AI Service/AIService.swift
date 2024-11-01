@@ -19,7 +19,7 @@ struct AIService {
 
     func createView(from request: String) async throws -> any View {
         let serviceRequest = MessageServiceRequest(
-            model: .claude3Sonnet,
+            model: .claude3Dot5Sonnet,
             messages: [
                 .init(role: .user, content: request)
             ],
